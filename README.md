@@ -12,12 +12,6 @@
 python3 src/main.py
 ```
 
-Тесты:
-
-```sh
-python3 -m unittest discover -s tests
-```
-
 ## Что сделано
 
 - **ЛР1** — главное меню (номера пунктов вынесены в константы), настройки: сложность и начальное количество животных каждого вида.
@@ -33,4 +27,3 @@ python3 -m unittest discover -s tests
 - `src/game.py` — игровые классы
 - `src/storage.py` — работа с файлами
 - `src/config.py` — константы и настройки по умолчанию
-- `tests/test_farm.py` — тесты
