@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "happy-farm"
+version = "1.5.0"
+description = "Консольная игра Весёлая ферма — лабораторные работы 1–5, вариант 3"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+happy-farm = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["main", "ui", "game", "config", "storage"]
